@@ -25,6 +25,25 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    var isNS = (navigator.appName == "PN") ? 1 : 0;
+    if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+    function mischandler(){
+    return false;
+    }
+    function mousehandler(e){
+    var myevent = (isNS) ? e : event;
+    var eventbutton = (isNS) ? myevent.which : myevent.button;
+    if((eventbutton==2)||(eventbutton==3)) return false;
+    }
+    document.oncontextmenu = mischandler;
+    document.onmousedown = mousehandler;
+    document.onmouseup = mousehandler;
+    </script>
+
 </head>
 
 <body>
@@ -54,7 +73,7 @@
                 <a href="about.html">About</a>
                 <a href="services.html">Services</a>
                 <a href="appointment.html">Appointment</a>
-                <a href="testimonial.html">Testimonial</a>
+                <a href="team.html">Our Team</a>
                 <a href="contact.html">Contact Us</a>
               </div>
             </div>
@@ -81,7 +100,7 @@
       <div class="">
         <div class="row">
           <div class="col-md-7 mx-auto">
-            <form id="" action="">
+            <form id="submit-form" action="">
                 <div class="contact_form-container">
                   <div class="row">
                     <div class="col-sm-6">
@@ -122,6 +141,28 @@
       </div>
     </div>
   </section>
+
+  
+<script>
+  $("#submit-form").submit((e)=>{
+  e.preventDefault()
+  $.ajax({
+  url:"https://script.google.com/macros/s/AKfycbxPHn74LlkRIyp5Rze6n1nuwJgr1tesGBMH67LDqozP7WXdngSHY-1yrx01v_jqepss/exec",
+  data:$("#submit-form").serialize(),
+  method:"post",
+  success:function (response){
+  alert("Our sales team will contact you shortly. Thank you!")
+  window.location.reload()
+  //window.location.href="https://google.com"
+  },
+  error:function (err){
+  alert("Something Error")
+ 
+  }
+  })
+  })
+  </script>
+
 
   <!-- end contact section -->
 
