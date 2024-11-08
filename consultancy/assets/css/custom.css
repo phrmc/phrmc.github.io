@@ -119,7 +119,7 @@ h6 {
 
 .header-con .navbar-light .navbar-nav li.contact-btn a.nav-link:hover {
     background-color: var(--secondary--color);
-    color: var(--navy-blue);
+    color: #856404;
 }
 
 .header-con .navbar-light .navbar-nav li.contact-btn a.nav-link::before {
@@ -173,7 +173,7 @@ h6 {
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item {
     padding: 7px 25px;
     border-bottom: 1px solid var(--secondary--color);
-    color: var(--navy-blue);
+    color: #856404;
 }
 
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item:active,
@@ -195,7 +195,7 @@ h6 {
 /* BACK TO TOP BUTTON */
 #button {
     display: inline-block;
-    background-color: var(--navy-blue);
+    background-color: #856404;
     width: 82px;
     height: 82px;
     text-align: center;
@@ -275,7 +275,7 @@ h6 {
     text-indent: -9999em;
     display: inline-block;
     margin: -25px 0 0 -25px;
-    color: var(--navy-blue);
+    color: #856404;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
@@ -291,7 +291,7 @@ h6 {
     position: absolute;
     border-radius: 50%;
     display: inline-block;
-    background-color: var(--navy-blue);
+    background-color: #856404;
     -webkit-animation: ballPulseDouble 2s ease-in-out infinite;
     animation: ballPulseDouble 2s ease-in-out infinite;
 }
@@ -344,11 +344,11 @@ h6 {
 
 .banner-con h1 {
     color: var(--black--color);
-    margin-bottom: 17px;
+    margin-bottom: 14px;
 }
 
 span.blue-text {
-    color: var(--primary--color);
+    color: #856404;
 }
 
 .banner-con .vector-img2 {
@@ -395,7 +395,7 @@ span.blue-text {
 }
 
 .main-box h4 {
-    color: var(--navy-blue);
+    color: #856404;
     text-transform: uppercase;
     margin-bottom: 18px;
 }
@@ -659,7 +659,7 @@ span.blue-text {
 }
 
 .projects-con .project-carousel .project-box a.explore-link:hover {
-    color: var(--navy-blue);
+    color: #856404;
 }
 
 .projects-con .project-carousel .project-box .arrow a {
@@ -689,8 +689,8 @@ span.blue-text {
 }
 
 .projects-con .project-carousel .project-box .arrow a:hover {
-    background-color: var(--navy-blue);
-    border: 2px solid var(--navy-blue);
+    background-color: #856404;
+    border: 2px solid #856404;
 }
 
 .projects-con .project-carousel .project-box .arrow a:hover i {
@@ -822,7 +822,7 @@ span.blue-text {
 }
 
 .reviews-con .review-carousel .item span.reviewer-name {
-    color: var(--navy-blue);
+    color: #856404;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -869,7 +869,7 @@ span.blue-text {
 }
 
 .reviews-con .owl-dots button span {
-    background-color: var(--navy-blue);
+    background-color: #856404;
     width: 14px;
     height: 14px;
     border-radius: 100px;
@@ -997,7 +997,7 @@ span.blue-text {
 
 /* FOOTER SECTION */
 .footer-con {
-    background-color: var(--primary--color);
+    background-color: #000000;
 }
 
 .footer-con .newsletter-bar {
@@ -1081,7 +1081,7 @@ span.blue-text {
 }
 
 .footer-con form button:hover {
-    background-color: var(--navy-blue);
+    background-color: #856404;
 }
 
 .footer-con .footer-inner-con figure {
@@ -1118,7 +1118,7 @@ span.blue-text {
 
 .footer-con .footer-inner-con .quick-links-con ul li a:hover {
     text-decoration: none;
-    color: var(--navy-blue);
+    color: #856404;
 }
 
 .footer-con .footer-inner-con .quick-links-con ul.var {
@@ -1144,7 +1144,7 @@ span.blue-text {
 
 .footer-con .footer-inner-con .get-in-touch-con ul li a:hover {
     text-decoration: none;
-    color: var(--navy-blue);
+    color: #856404;
 }
 
 .footer-con .footer-inner-con .get-in-touch-con ul li i {
@@ -1185,7 +1185,7 @@ span.blue-text {
 }
 
 .footer-con .copyright-con .social-icons-con li a:hover {
-    background-color: var(--navy-blue);
+    background-color: #856404;
 }
 
 .footer-con .copyright-con .social-icons-con li a:hover i {
@@ -1209,7 +1209,7 @@ span.blue-text {
     height: 1px;
     content: '';
     position: absolute;
-    background: var(--navy-blue);
+    background: #856404;
     transition: ease-in-out 0.3s;
 }
 
@@ -1569,7 +1569,7 @@ span.blue-text {
 }
 
 .get-intouch-inner-con #contactpage .navy-btn button {
-    background-color: var(--navy-blue);
+    background-color: #856404;
     padding: 15px 34px !important;
     border-radius: 100px;
     min-width: 100%;
@@ -1651,7 +1651,7 @@ span.blue-text {
 
 .get-intouch-con .contact-info a:hover {
     text-decoration: none;
-    color: var(--navy-blue);
+    color: #856404;
 }
 
 .get-intouch-con .contact-info ul.info-details li a:hover::after {
@@ -1666,7 +1666,7 @@ span.blue-text {
     height: 1px;
     content: '';
     position: absolute;
-    background: var(--navy-blue);
+    background: #856404;
     transition: ease-in-out 0.3s;
 }
 
@@ -1706,7 +1706,7 @@ span.blue-text {
 }
 
 .get-intouch-con .contact-info .social-icons-con li a:hover {
-    background-color: var(--navy-blue);
+    background-color: #856404;
 }
 
 .get-intouch-con .contact-info .social-icons-con li a:hover i {
