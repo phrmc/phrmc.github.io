@@ -2,25 +2,25 @@
 <html lang="zxx">
 
 <head>
-  <title>Silver Fox | About </title>
+  <title>About Prestige Hospitality Consultancy Hospitality Consultancy </title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/logo/log-rbg-p.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/log-rbg-p.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/logo/log-rbg-p.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo/log-rbg-p.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/logo/log-rbg-p.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo/log-rbg-p.png">
   <link rel="manifest" href="assets/images/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="assets/img/logo/log-rbg-p.png">
   <meta name="theme-color" content="#ffffff">
   <!-- Font Awesome link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -34,6 +34,23 @@
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+
+  <script>
+      var isNS = (navigator.appName == "PN") ? 1 : 0;
+      if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+      function mischandler(){
+      return false;
+      }
+      function mousehandler(e){
+      var myevent = (isNS) ? e : event;
+      var eventbutton = (isNS) ? myevent.which : myevent.button;
+      if((eventbutton==2)||(eventbutton==3)) return false;
+      }
+      document.oncontextmenu = mischandler;
+      document.onmousedown = mousehandler;
+      document.onmouseup = mousehandler;
+      </script>
+
 </head>
 
 <body>
@@ -51,7 +68,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">
           <figure class="mb-0">
-            <img src="assets/images/logo-icon.png" alt="logo-icon" width="236">
+            <img src="assets/img/logo/log-rbg-p.png" alt="logo-icon" width="80" height="80">
           </figure>
         </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -69,31 +86,27 @@
             <li class="nav-item">
               <a class="nav-link p-0" href="about.html">ABOUT US</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link p-0" href="services.html">SERVICES</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle p-0" href="project.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                <a class="dropdown-item" href="project.html">Project</a>
-                <a class="dropdown-item" href="single-project.html">Single Project</a>
-                </div>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle p-0" href="blog.html" id="navbarDropdown4" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                <a class="dropdown-item" href="blog.html">Blog</a>
-                <a class="dropdown-item" href="load-more.html">Load More</a>
-                <a class="dropdown-item" href="single-blog.html">Single Blog</a>
-                <a class="dropdown-item" href="one-column.html">One Column</a>
-                <a class="dropdown-item" href="two-column.html">Two Column</a>
-                <a class="dropdown-item" href="three-column.html">Three Column</a>
-                <a class="dropdown-item" href="three-colum-sidbar.html">Three Column Sidbar</a>
-                <a class="dropdown-item" href="four-column.html">Four Column</a>
-                <a class="dropdown-item" href="six-colum-full-wide.html">Six Column</a>
+                <a class="dropdown-item" href="blog.html">Restaurant & Concept Development</a>
+                <a class="dropdown-item" href="load-more.html">Operational Excellence</a>
+                <a class="dropdown-item" href="single-blog.html"> Financial & Revenue Management</a>
+                <a class="dropdown-item" href="one-column.html">Marketing & Customer Experience</a>
+                <a class="dropdown-item" href="two-column.html">Staff Training & Development</a>
+                <a class="dropdown-item" href="two-column.html">Quality Assurance & Compliance</a>
+                <a class="dropdown-item" href="two-column.html">Turnaround & Crisis Management</a>
               </div>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle p-0" href="project.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                <a class="dropdown-item" href="project.html">Blog</a>
+                <a class="dropdown-item" href="single-project.html">Project</a>
+                </div>
+            </li>
+           
             <li class="nav-item">
               <a class="nav-link p-0" href="reviews.html">REVIEWS</a>
             </li>
@@ -119,9 +132,7 @@
           <div class="col-lg-6">
             <div class="about-sub-iner-con">
               <h1 class="text-uppercase">About <span class="d-inline-block blue-text">Us</span></h1>
-              <p class="special-text mb-0">Duis aute irure dolor in repre henderit in voluptate velit esse cillum dolore
-                eu fugiat nulla pariatucepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
-                molli.</p>
+              <p class="special-text mb-0">At Prestige Hospitality Management & Restaurants Consultancy, we are passionate about helping hospitality businesses thrive. With a wealth of industry knowledge and a results-driven approach, we provide tailored consulting services designed to enhance operational efficiency, maximize profitability, and elevate guest experiences. </p>
               <!-- about sub iner con -->
             </div>
             <!-- col -->
@@ -138,332 +149,316 @@
     </div>
     <!-- sub-banner-con -->
   </section>
-  <!-- WE ARE THE BEST SECTION -->
-  <section class="w-100 float-left we-best-con position-relative text-center padding-top145  main-box">
-    <div class="wrapper1200">
-      <h2 class="wow bounceInUp" data-wow-duration="2s">We Are The <span class="d-inline-block blue-text">Best</span>
-      </h2>
-      <div class="row best-inner-con wow bounceInUp" data-wow-duration="2s">
-        <div class="col-lg-4 col-md-4">
-          <div class="best-feature pl-0">
-            <figure><img src="assets/images/best-feature-icon1.png" class="img-fluid" alt="best-icon"></figure>
-            <h4 class="">Save Your Time</h4>
-            <p class="font-size-14 mb-0">Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do eiusmod tempor
-              incididunt ut labore.</p>
-            <!-- best feature -->
-          </div>
-          <!-- col -->
+ <!-- WE ARE THE BEST SECTION -->
+ <section class="w-100 float-left we-best-con position-relative text-center padding-top main-box">
+  <img class="img-fluid position-absolute vector-img3" src="assets/images/circle-vector.png" alt="vector">
+  <div class="wrapper1200">
+    <h2 class="wow bounceInUp" data-wow-duration="2s">We Are The <span class="d-inline-block blue-text">Best</span>
+    </h2>
+    <div class="row best-inner-con wow bounceInUp" data-wow-duration="2s">
+      <div class="col-lg-4 col-md-4">
+        <div class="best-feature pl-0">
+          <figure><img src="assets/images/best-feature-icon1.png" class="img-fluid" alt="best-icon"></figure>
+          <h4 class="">Save Your Time</h4>
+          <p class="font-size-14 mb-0">Prestige Hospitality, we understand that time is one of your most valuable assets. Our experts streamline your hospitality operations so you can focus on delivering memorable guest experiences.</p>
+          <!-- best feature -->
         </div>
-        <div class="col-lg-4 col-md-4 text-center align-items-center justify-content-center d-flex">
-          <div class="best-feature blue-box">
-            <figure><img src="assets/images/best-feature-icon2.png" class="img-fluid" alt="best-icon"></figure>
-            <h4 class="">Affordable Pricing</h4>
-            <p class="font-size-14 mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur xcepteur sint occaecat cupidatat non proide sunt in culpa qui officia.</p>
-            <!-- best feature -->
-          </div>
-          <!-- col -->
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="best-feature pr-0">
-            <figure><img src="assets/images/best-feature-icon3.png" class="img-fluid" alt="best-icon"></figure>
-            <h4 class="">Best Strategy</h4>
-            <p class="font-size-14 mb-0">Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do eiusmod tempor
-              incididunt ut labore.</p>
-            <!-- best feature -->
-          </div>
-          <!-- col -->
-        </div>
-        <!-- row -->
+        <!-- col -->
       </div>
-      <!-- container -->
-    </div>
-
-    <!-- we-best-con -->
-  </section>
-  <!-- ABOUT SECTION -->
-  <section class="w-100 float-left about-silver-con position-relative padding-top145 padding-bottom130 main-box">
-    <img class="img-fluid position-absolute vector-img4" src="assets/images/tri-con.png" alt="vector">
-    <div class="wrapper1200">
-      <div class="row sub-silver-con">
-        <div class="col-lg-6">
-          <figure class="position-relative silver-img"><img src="assets/images/about-silver-img.png"
-              class="position-absolute wow bounceInUp" data-wow-duration="2s" alt="about-img"></figure>
-          <!-- col-lg-6 -->
+      <div class="col-lg-4 col-md-4 text-center align-items-center justify-content-center d-flex">
+        <div class="best-feature blue-box">
+          <figure><img src="assets/images/best-feature-icon2.png" class="img-fluid" alt="best-icon"></figure>
+          <h4 class="">Affordable Pricing</h4>
+          <p class="font-size-14 mb-0">Prestige Hospitality, we believe that exceptional service shouldn’t come with a hefty price tag. Our affordable pricing options are designed to meet the needs of every business, from new ventures to established enterprises.</p>
+          <!-- best feature -->
         </div>
-        <div class="col-lg-6">
-          <h2 class="wow bounceInUp" data-wow-duration="2s">About Silver Fox <span
-              class="d-inline-block blue-text">Management</span>
+        <!-- col -->
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="best-feature pr-0">
+          <figure><img src="assets/images/best-feature-icon3.png" class="img-fluid" alt="best-icon"></figure>
+          <h4 class="">Best Strategy</h4>
+          <p class="font-size-14 mb-0">Prestige Hospitality, we don’t believe in one-size-fits-all solutions. Our best strategy for your business is one tailored to your unique goals, challenges, and vision. Combining industry expertise with a deep understanding of your needs</p>
+          <!-- best feature -->
+        </div>
+        <!-- col -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+
+  <!-- we-best-con -->
+</section>
+ <!-- ABOUT SECTION -->
+ <section class="w-100 float-left about-silver-con position-relative padding-top145 padding-bottom130 main-box">
+  <img class="img-fluid position-absolute vector-img4" src="assets/images/tri-con.png" alt="vector">
+  <div class="wrapper1200">
+    <div class="row sub-silver-con">
+      <div class="col-lg-6">
+        <figure class="position-relative silver-img"><img src="assets/images/about-silver-img.png"
+            class="position-absolute wow bounceInUp" data-wow-duration="2s" alt="about-img"></figure>
+        <!-- col-lg-6 -->
+      </div>
+      <div class="col-lg-6">
+        <h2 class="wow bounceInUp" data-wow-duration="2s">About Us <span
+            class="d-inline-block blue-text">Management</span>
+        </h2>
+        <p class="wow bounceInUp" data-wow-duration="2s">Our vision is to be the leading partner for hospitality businesses around the world, setting the standard for quality, innovation, and memorable guest experiences. 
+        </p>
+        <div class="about-vm-con float-left w-100 wow bounceInUp" data-wow-duration="2s">
+          <div class="vm-inner1 float-left var">
+            <h3 class="">Our <span class="d-inline-block blue-text">Vision</span></h3>
+            <ul class="list-unstyled p-0">
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">Redefining Excellence </li>
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">One Experience at a Time</li>
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">Crafted with passion </li>
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">Destinations guests love </li>
+            </ul>
+
+            <!-- vm-inner -->
+          </div>
+          <div class="vm-inner1 float-left mr-0 wow bounceInUp" data-wow-duration="2s">
+            <h3 class="">Our <span class="d-inline-block blue-text">Mission</span></h3>
+            <ul class="list-unstyled p-0">
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">Our clients unique vision</li>
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">Deliver consulting services</li>
+              <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
+                  alt="check-icon">Support that enhance every aspect</li>
+            </ul>
+            <!-- vm-inner -->
+          </div>
+          <!-- about vm con -->
+        </div>
+        <div class="navy-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+          <a href="about.html" class="d-inline-block">Read More</a>
+        </div>
+        <!-- col-lg-6 -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- wrapper1200 -->
+  </div>
+  <!-- about section -->
+</section>
+<!-- CREATIVITY SECTION -->
+<section class="float-left w-100 creativity-con main-box light-blue-bg position-relative">
+  <div class="wrapper1200">
+    <img class="vector-icon1 img-fluid position-absolute" src="assets/images/creativity-vector-icon1.png"
+      alt="vector-icon">
+    <img class="vector-icon2 img-fluid position-absolute" src="assets/images/creativity-vector-icon2.png"
+      alt="vector-icon">
+    <div class="row">
+      <div class="col-lg-5 order-xl-0 order-lg-0 order-1">
+        <div class="creative-inner-wrapper wow bounceInUp" data-wow-duration="2s">
+          <h2 class="wow bounceInUp" data-wow-duration="2s">Ready to Elevate <span
+              class="d-inline-block blue-text">Your Hospitality Business?</span>
           </h2>
-          <p class="wow bounceInUp" data-wow-duration="2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-            do eiusmod tempor incididunt ut labore ed
-            olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          <p class="wow bounceInUp" data-wow-duration="2s">Connect with Prestige Hospitality Management & Restaurants Consultancy today. 
           </p>
-          <div class="about-vm-con float-left w-100 wow bounceInUp" data-wow-duration="2s">
-            <div class="vm-inner1 float-left var">
-              <h3 class="">Our <span class="d-inline-block blue-text">Vision</span></h3>
-              <ul class="list-unstyled p-0">
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">Ut enim ad minim venia.</li>
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">Rud exercitation ullamco.</li>
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">Laboris nisi ut aliquip ex ea.</li>
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">Duis aute irure dolor in reprehe.</li>
-              </ul>
-
-              <!-- vm-inner -->
+          <span class="d-block blue-text campaign">Succes Campaign</span>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+              style="max-width:95%">
+              <span class="title">95%</span>
+              <!-- progress bar -->
             </div>
-            <div class="vm-inner1 float-left mr-0 wow bounceInUp" data-wow-duration="2s">
-              <h3 class="">Our <span class="d-inline-block blue-text">Mission</span></h3>
-              <ul class="list-unstyled p-0">
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">Incididunt ut labore et dolore.</li>
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">veniam, quis nostrud.</li>
-                <li class="position-relative d-flex align-items-center"><img src="assets/images/check-icon.png"
-                    alt="check-icon">Exercitation ullamco labori.</li>
-              </ul>
-              <!-- vm-inner -->
+            <!-- progress -->
+          </div>
+          <span class="d-block blue-text campaign">Promote Business</span>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"
+              style="max-width:93%">
+              <span class="title">93%</span>
+              <!-- progress bar -->
             </div>
-            <!-- about vm con -->
+            <!-- progress -->
           </div>
-          <div class="navy-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
-            <a href="about.html" class="d-inline-block">Read More</a>
+          <span class="d-block blue-text campaign">Project Done</span>
+          <div class="progress mb-0">
+            <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"
+              style="max-width:97%">
+              <span class="title">97%</span>
+              <!-- progress bar -->
+            </div>
+            <!-- progress -->
           </div>
-          <!-- col-lg-6 -->
+          <!-- creative inner wrapper -->
         </div>
-        <!-- row -->
+        <!-- col -->
       </div>
-      <!-- wrapper1200 -->
+      <div class="col-lg-7 wow bounceInUp" data-wow-duration="2s">
+        <figure class="position-relative"><img src="assets/images/creative-image.png"
+            class="creative-img position-absolute" alt="about-img"></figure>
+        <!-- col -->
+      </div>
+      <!-- row -->
     </div>
-    <!-- about section -->
-  </section>
-  <!-- CREATIVITY SECTION -->
-  <section class="float-left w-100 creativity-con main-box light-blue-bg position-relative">
-    <div class="wrapper1200">
-      <img class="vector-icon1 img-fluid position-absolute" src="assets/images/creativity-vector-icon1.png"
-        alt="vector-icon">
-      <img class="vector-icon2 img-fluid position-absolute" src="assets/images/creativity-vector-icon2.png"
-        alt="vector-icon">
-      <div class="row">
-        <div class="col-lg-5 order-xl-0 order-lg-0 order-1">
-          <div class="creative-inner-wrapper wow bounceInUp" data-wow-duration="2s">
-            <h2 class="wow bounceInUp" data-wow-duration="2s">Bringing Creativity <span
-                class="d-inline-block blue-text">Into
-                Action</span>
+    <!-- wrapper1200 -->
+  </div>
+  <!-- creativity con -->
+</section>
+    <!-- REVIEWS SECTION -->
+    <section class="float-left w-100 reviews-con position-relative text-center main-box">
+      <img class="img-fluid position-absolute vector-img4" src="assets/images/tri-con.png" alt="vector">
+      <img class="img-fluid position-absolute review-objct1" src="assets/images/review-objct1.png" alt="review-objct1">
+      <img class="img-fluid position-absolute review-objct2" src="assets/images/review-objct2.png" alt="review-objct2">
+      <img class="img-fluid position-absolute review-objct3" src="assets/images/review-objct3.png" alt="review-objct3">
+      <figure><img class="reviews-line-obj position-absolute" src="assets/images/reviews-line-objct.png"
+          alt="reviews-line-obj"></figure>
+      <div class="wrapper1200">
+        <div class="row wow bounceInUp" data-wow-duration="2s">
+          <div class="m-auto col-xl-10 col-lg-12">
+            <h2 class="wow bounceInUp" data-wow-duration="2s">What People say About <br>
+              <span class="d-inline-block blue-text"> Prestige Hospitality Management & Restaurants Consultancy</span>
             </h2>
-            <p class="wow bounceInUp" data-wow-duration="2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut.
-            </p>
-            <span class="d-block blue-text campaign">Succes Campaign</span>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
-                style="max-width:85%">
-                <span class="title">85%</span>
-                <!-- progress bar -->
+            <div class="review-inner-con text-center">
+              <div class="review-carousel owl-carousel wow bounceInUp" data-wow-duration="2s">
+                <div class="item">
+                  <div class="imgz-wrapper position-relative">
+                    <figure class="review-person position-relative">
+                      <img src="assets/images/review-person.png" class="img-fluid position-absolute" alt="review-person">
+                    </figure>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <!-- imgz wraqpper -->
+                  </div>
+                  <span class="reviewer-name d-block"></span>
+                  <h4 class="">“Great Temwork”</h4>
+                  <p class="font-size-14 mb-0">Prestige Hospitality completely transformed our restaurant's operations. Their attention to detail and strategic insight helped us increase efficiency and boost profits within just a few months. They’re not just consultants – they’re true partners.</p>
+  
+  
+                  <!-- item -->
+                </div>
+                <div class="item">
+                  <div class="imgz-wrapper position-relative">
+                    <figure class="review-person position-relative">
+                      <img src="assets/images/review-person.png" class="img-fluid position-absolute" alt="review-person">
+                    </figure>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <!-- imgz wraqpper -->
+                  </div>
+                  <span class="reviewer-name d-block"></span>
+                  <h4 class="">“Great Temwork”</h4>
+                  <p class="font-size-14 mb-0">The team at Prestige helped us revamp our guest experience and streamline our operations. Their creative ideas and hands-on support made all the difference. We’ve seen a significant increase in bookings and customer satisfaction since implementing their recommendations.</p>
+  
+  
+                  <!-- item -->
+                </div>
+                <div class="item">
+                  <div class="imgz-wrapper position-relative">
+                    <figure class="review-person position-relative">
+                      <img src="assets/images/review-person.png" class="img-fluid position-absolute" alt="review-person">
+                    </figure>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <!-- imgz wraqpper -->
+                  </div>
+                  <span class="reviewer-name d-block"></span>
+                  <h4 class="">“Great Temwork”</h4>
+                  <p class="font-size-14 mb-0">From the moment we started working with Prestige, we felt like we had a team that genuinely cared about our success. Their approach is personalized, and their commitment to our growth has been invaluable. They helped us rethink our marketing strategy, resulting in a 30% increase in customer engagement.</p>
+  
+  
+                  <!-- item -->
+                </div>
+                <!-- review inner con -->
               </div>
-              <!-- progress -->
+              <!-- owl carousel -->
             </div>
-            <span class="d-block blue-text campaign">Promote Business</span>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"
-                style="max-width:93%">
-                <span class="title">93%</span>
-                <!-- progress bar -->
-              </div>
-              <!-- progress -->
-            </div>
-            <span class="d-block blue-text campaign">Project Done</span>
-            <div class="progress mb-0">
-              <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
-                style="max-width:67%">
-                <span class="title">67%</span>
-                <!-- progress bar -->
-              </div>
-              <!-- progress -->
-            </div>
-            <!-- creative inner wrapper -->
+            <!-- col -->
           </div>
-          <!-- col -->
+          <!-- row -->
         </div>
-        <div class="col-lg-7 wow bounceInUp" data-wow-duration="2s">
-          <figure class="position-relative"><img src="assets/images/creative-image.png"
-              class="creative-img position-absolute" alt="about-img"></figure>
-          <!-- col -->
-        </div>
-        <!-- row -->
+        <!-- wrapper1200 -->
       </div>
-      <!-- wrapper1200 -->
-    </div>
-    <!-- creativity con -->
-  </section>
-  <!-- REVIEWS SECTION -->
-  <section class="float-left w-100 reviews-con position-relative text-center main-box">
-    <img class="img-fluid position-absolute vector-img4" src="assets/images/tri-con.png" alt="vector">
-    <img class="img-fluid position-absolute review-objct1" src="assets/images/review-objct1.png" alt="review-objct1">
-    <img class="img-fluid position-absolute review-objct2" src="assets/images/review-objct2.png" alt="review-objct2">
-    <img class="img-fluid position-absolute review-objct3" src="assets/images/review-objct3.png" alt="review-objct3">
-    <figure><img class="reviews-line-obj position-absolute" src="assets/images/reviews-line-objct.png"
-        alt="reviews-line-obj"></figure>
-    <div class="wrapper1200">
-      <div class="row wow bounceInUp" data-wow-duration="2s">
-        <div class="m-auto col-xl-10 col-lg-12">
-          <h2 class="wow bounceInUp" data-wow-duration="2s">What People say About <br>
-            <span class="d-inline-block blue-text">Silver Fox</span>
-          </h2>
-          <div class="review-inner-con text-center">
-            <div class="review-carousel owl-carousel wow bounceInUp" data-wow-duration="2s">
-              <div class="item">
-                <div class="imgz-wrapper position-relative">
-                  <figure class="review-person position-relative">
-                    <img src="assets/images/review-person.png" class="img-fluid position-absolute" alt="review-person">
-                  </figure>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                  <!-- imgz wraqpper -->
-                </div>
-                <span class="reviewer-name d-block">Smantha Johnson</span>
-                <h4 class="">“Great Temwork”</h4>
-                <p class="font-size-14 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod
-                  tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo.</p>
-
-
-                <!-- item -->
-              </div>
-              <div class="item">
-                <div class="imgz-wrapper position-relative">
-                  <figure class="review-person position-relative">
-                    <img src="assets/images/review-person.png" class="img-fluid position-absolute" alt="review-person">
-                  </figure>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                  <!-- imgz wraqpper -->
-                </div>
-                <span class="reviewer-name d-block">Smantha Johnson</span>
-                <h4 class="">“Great Temwork”</h4>
-                <p class="font-size-14 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod
-                  tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo.</p>
-
-
-                <!-- item -->
-              </div>
-              <div class="item">
-                <div class="imgz-wrapper position-relative">
-                  <figure class="review-person position-relative">
-                    <img src="assets/images/review-person.png" class="img-fluid position-absolute" alt="review-person">
-                  </figure>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                  <!-- imgz wraqpper -->
-                </div>
-                <span class="reviewer-name d-block">Smantha Johnson</span>
-                <h4 class="">“Great Temwork”</h4>
-                <p class="font-size-14 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod
-                  tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo.</p>
-
-
-                <!-- item -->
-              </div>
-              <!-- review inner con -->
-            </div>
-            <!-- owl carousel -->
-          </div>
-          <!-- col -->
-        </div>
-        <!-- row -->
-      </div>
-      <!-- wrapper1200 -->
-    </div>
-    <!-- reviews con -->
-  </section>
+      <!-- reviews con -->
+    </section>
   <!-- SPACER -->
   <div class="spacer"></div>
-  <!-- FOOTER SECTION -->
-  <section class="float-left w-100 footer-con position-relative padding-top main-box">
-    <div class="newsletter-bar d-flex align-items-center wow bounceInUp" data-wow-duration="2s">
-      <img src="assets/images/footer-vector.png" class="img-fluid" alt="icon">
-      <div class="float-left w-100">
-        <h3>Sigup Our newsletter to get update <br>
-          information, news, insight or promotons.</h3>
-      </div>
-      <form action="javascript:;">
-        <div class="form-group mb-0 position-relative">
-          <input type="text" class="form_style" placeholder="Email" name="email">
-          <button>Sign Up</button>
-        </div>
-      </form>
-      <!-- newsletter bar -->
+ <!-- FOOTER SECTION -->
+ <section class="float-left w-100 footer-con position-relative padding-top main-box">
+  <div class="newsletter-bar d-flex align-items-center wow bounceInUp" data-wow-duration="2s">
+    <img src="assets/images/footer-vector.png" class="img-fluid" alt="icon">
+    <div class="float-left w-100">
+      <h3>Sigup Our newsletter to get update <br>
+        information, news, insight or promotons.</h3>
     </div>
-    <div class="wrapper1200">
-      <div class="row footer-inner-con wow bounceInUp" data-wow-duration="2s">
-        <div class="col-lg-4 wow bounceInUp" data-wow-duration="2s">
-          <figure class=""><img src="assets/images/footer-logo.png" alt="logo" class="img-fluid"></figure>
-          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliq
-            Ut enim ad minim.</p>
-          <!-- col -->
-        </div>
-        <div class="col-lg-4 wow bounceInUp" data-wow-duration="2s">
-          <div class="quick-links-con float-left w-100">
-            <h4>Quick Links</h4>
-            <ul class="list-unstyled p-0 d-inline-block float-left var">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li class="mb-0"><a href="project.html">Projects</a></li>
-            </ul>
-            <ul class="list-unstyled p-0 d-inline-block float-left var2">
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="reviews.html">Reviews</a></li>
-              <li class="mb-0"><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <!-- quick links -->
-          </div>
-          <!-- col -->
-        </div>
-        <div class="col-lg-4 wow bounceInUp" data-wow-duration="2s">
-          <div class="get-in-touch-con">
-            <h4>Get In Touch</h4>
-            <ul class="list-unstyled p-0">
-              <li class="position-relative"><i class="fa-solid fa-location-dot"></i> 21 King Street Melbourne, <br>
-                3000, Australia</li>
-              <li class="position-relative"><i class="fa-solid fa-envelope"></i> <a
-                  href="mailto:Info@consultking.com">info@silverfox.com</a></li>
-              <li class="position-relative mb-0"><i class="fa-solid fa-phone"></i> <a href="tel:+61383766284">+61 3 8376
-                  6284</a></li>
-            </ul>
-            <!-- get in touch -->
-          </div>
-          <!-- col -->
-        </div>
-        <!-- row -->
+    <form action="javascript:;">
+      <div class="form-group mb-0 position-relative">
+        <input type="text" class="form_style" placeholder="Email" name="email">
+        <button>Sign Up</button>
       </div>
-      <!-- wrapper1200 -->
-    </div>
-    <hr>
-    <div class="wrapper1200">
-      <div class="copyright-con float-left w-100 d-flex align-items-center wow bounceInUp" data-wow-duration="2s">
-        <p class="mb-0">© 2024 Silver Fox Management All RIght Reserved.</p>
-        <div class="social-icons-con wow bounceInUp" data-wow-duration="2s">
-          <ul class="list-unstyled p-0 d-flex align-items-center mb-0">
-            <li><a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li><a href="https://www.linkedin.com/login" class="mr-0"><i class="fa-brands fa-google"></i></a></li>
+    </form>
+    <!-- newsletter bar -->
+  </div>
+  <div class="wrapper1200">
+    <div class="row footer-inner-con wow bounceInUp" data-wow-duration="2s">
+      <div class="col-lg-4 wow bounceInUp" data-wow-duration="2s">
+        <figure class=""><img src="assets/img/logo/l1A-rbg-p.png" width="250" height="150" alt="logo" class="img-fluid"></figure>
+        <p class="mb-0"> We are dedicated to growing the value and profitability of the assets entrusted to us by our clients. We offer exemplary services across all catering and hospitality related allied services.</p>
+        <!-- col -->
+      </div>
+      <div class="col-lg-4 wow bounceInUp" data-wow-duration="2s">
+        <div class="quick-links-con float-left w-100">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled p-0 d-inline-block float-left var">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="mb-0"><a href="project.html">Portfolio</a></li>
           </ul>
-          <!-- social icons con -->
+          <ul class="list-unstyled p-0 d-inline-block float-left var2">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="reviews.html">Teams</a></li>
+            <li class="mb-0"><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <!-- quick links -->
         </div>
-        <!-- copyright con -->
+        <!-- col -->
       </div>
-      <!-- wrapper1200 -->
+      <div class="col-lg-4 wow bounceInUp" data-wow-duration="2s">
+        <div class="get-in-touch-con">
+          <h4>Get In Touch</h4>
+          <ul class="list-unstyled p-0">
+            <li class="position-relative"><i class="fa-solid fa-location-dot"></i> Khalifa City, Abu Dhabi, <br>
+              United Arab Emirates</li>
+            <li class="position-relative"><i class="fa-solid fa-envelope"></i> <a
+                href="mailto:info@prestigehmc.com">info@prestigehmc.com</a></li>
+            <li class="position-relative mb-0"><i class="fa-solid fa-phone"></i> <a href="tel:+971504207232">+971 50 420 7232</a></li>
+          </ul>
+          <!-- get in touch -->
+        </div>
+        <!-- col -->
+      </div>
+      <!-- row -->
     </div>
-    <!-- footer con -->
-  </section>
+    <!-- wrapper1200 -->
+  </div>
+  <hr>
+  <div class="wrapper1200">
+    <div class="copyright-con float-left w-100 d-flex align-items-center wow bounceInUp" data-wow-duration="2s">
+      <p class="mb-0">© 2025 Prestige Hospitality 
+        Management & Restaurants Consultancy All RIght Reserved.</p>
+      <div class="social-icons-con wow bounceInUp" data-wow-duration="2s">
+        <ul class="list-unstyled p-0 d-flex align-items-center mb-0">
+          <li><a href="https://www.facebook.com/people/Prestige-Hospitality-Management-Restaurants-Consultancy/100064660571059/?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/prestigehmc" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/prestige-hospitality-management-restaurants-consultancy-1440a9255?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUno%2F02cVTF%2BcMx0%2FtsR1lA%3D%3D" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://wa.me/971504207232?text=Hi, I was just on your website and I would like to get some more information please.'" target="_blank" class="mr-0"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+        <!-- social icons con -->
+      </div>
+      <!-- copyright con -->
+    </div>
+    <!-- wrapper1200 -->
+  </div>
+  <!-- footer con -->
+</section>
 
   <!-- BACK TO TOP BUTTON -->
   <a id="button" class="show"></a>
