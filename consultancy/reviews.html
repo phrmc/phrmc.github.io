@@ -37,6 +37,31 @@
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+
+  <script>
+      var isNS = (navigator.appName == "PN") ? 1 : 0;
+      if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+      function mischandler(){
+      return false;
+      }
+      function mousehandler(e){
+      var myevent = (isNS) ? e : event;
+      var eventbutton = (isNS) ? myevent.which : myevent.button;
+      if((eventbutton==2)||(eventbutton==3)) return false;
+      }
+      document.oncontextmenu = mischandler;
+      document.onmousedown = mousehandler;
+      document.onmouseup = mousehandler;
+      </script>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5DCNTTGH');</script>
+  <!-- End Google Tag Manager -->
+
 </head>
 
 <body>
@@ -86,9 +111,9 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle p-0" href="project.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+              <a class="nav-link dropdown-toggle p-0" href="blog.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                <a class="dropdown-item" href="project.html">Blog</a>
+                <a class="dropdown-item" href="blog.html">Blog</a>
                 <a class="dropdown-item" href="single-project.html">Project</a>
                 </div>
             </li>
