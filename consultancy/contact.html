@@ -161,21 +161,21 @@
             <h2>Get In <span class="d-inline-block blue-text">Touch</span>
             </h2>
             <p class="text-size-14">Thank you for considering Prestige Hospitality. We look forward to collaborating with you to take your business to the next level.</p>
-            <form method="" id="contactpage" id="submit-form">
+            <form method="" id="contactpage">
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
-                    <input type="text" placeholder="Name" name="fname" id="fname">
+                    <input type="text" placeholder="Name" name="fname" id="fname" required >
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="form-group">
-                    <input type="email" placeholder="Email" name="email" id="email">
+                    <input type="email" placeholder="Email" name="email" id="email" required >
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="form-group">
-                    <input type="tel" placeholder="Phone Number" name="phone" id="phone">
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" required >
                   </div>
                 </div>
                 <div class="col-lg-12">
@@ -190,11 +190,11 @@
             </form>
 
             <script>
-  $("#submit-form").submit((e)=>{
+  $("#contactpage").submit((e)=>{
   e.preventDefault()
   $.ajax({
   url:"https://script.google.com/macros/s/AKfycbxPHn74LlkRIyp5Rze6n1nuwJgr1tesGBMH67LDqozP7WXdngSHY-1yrx01v_jqepss/exec",
-  data:$("#submit-form").serialize(),
+  data:$("#contactpage").serialize(),
   method:"post",
   success:function (response){
   alert("Our sales team will contact you shortly. Thank you!")
