@@ -85,7 +85,48 @@
 <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Organization", "name": "Prestige Hospitality Management & Restaurants Consultancy", "url": "https://prestigehmc.com/", "logo": " https://prestigehmc.com/img/logo/log-rbg-p.png", "contactPoint": { "@type": "ContactPoint", "telephone": "+971 50 420 7232", "contactType": "Customer Service", "email": "info@prestigehmc.com", "availableLanguage": ["English", "Arabic"] }, "sameAs": [ "https://www.facebook.com/prestigehmc", "https://www.instagram.com/prestigehmc" ], "department": [ { "@type": "Organization", "name": "Hospitality Management Services", "url": "https://prestigehmc.com/services.html" }, { "@type": "Organization", "name": "Restaurant Consultancy", "url": "https://prestigehmc.com/restaurant-marketing-strategy-services-uae" } ], "foundingDate": "2010", "foundingLocation": { "@type": "Place", "name": "Abu Dhabi, United Arab Emirates" } } </script>
 <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "WebPage", "url": "https://prestigehmc.com/", "name": "Prestige Hospitality Management & Restaurants Consultancy - Home", "description": "Prestige Hospitality Management & Restaurants Consultancy is a leading company offering end-to-end hospitality management and restaurant consultancy services in the Gulf region.", "publisher": { "@type": "Organization", "name": "Prestige Hospitality Management & Restaurants Consultancy", "url": "https://prestigehmc.com/" }, "breadcrumb": { "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prestigehmc.com/" } ] } } </script>
 
-  
+  <!-- JSON-LD Schema Markup -->
+  <script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "WebPage", "url": "https://prestigehmc.com/", "name": "Prestige Hospitality Management & Restaurants Consultancy - Home", "description": "Prestige Hospitality Management & Restaurants Consultancy is a leading company offering end-to-end hospitality management and restaurant consultancy services in the Gulf region.", "publisher": { "@type": "Organization", "name": "Prestige Hospitality Management & Restaurants Consultancy", "url": "https://prestigehmc.com/" }, "breadcrumb": { "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prestigehmc.com/" } ] } }
+    </script>
+
+    <!-- BreadcrumbList JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+      (function() {
+        const baseURL = "https://prestigehmc.com"; // Replace with your website's base URL
+        const pathSegments = window.location.pathname.split("/").filter(segment => segment);
+        const breadcrumbList = {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": []
+        };
+    
+        // Create the first breadcrumb for the homepage
+        breadcrumbList.itemListElement.push({
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": baseURL + "/"
+        });
+    
+        // Loop through each URL segment and create breadcrumb items
+        pathSegments.forEach((segment, index) => {
+          // Construct the URL for each breadcrumb level
+          const url = `${baseURL}/${pathSegments.slice(0, index + 1).join("/")}`;
+          // Format the segment name (replace dashes/underscores and capitalize words)
+          const name = segment.replace(/[-_]/g, " ").replace(/\b\w/g, char => char.toUpperCase());
+          breadcrumbList.itemListElement.push({
+            "@type": "ListItem",
+            "position": index + 2, // Starts from position 2 for the first segment after Home
+            "name": name,
+            "item": url
+          });
+        });
+    
+        // Convert the breadcrumb object to JSON and add it to the page as JSON-LD
+        document.write(`<script type="application/ld+json">${JSON.stringify(breadcrumbList)}</script>
+    
+     
 
 </head>
 
